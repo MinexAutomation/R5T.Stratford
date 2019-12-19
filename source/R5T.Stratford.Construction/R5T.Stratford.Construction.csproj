@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\R5T.Stratford\R5T.Stratford.csproj" />
+  </ItemGroup>
+
 </Project>
