@@ -1,0 +1,1 @@
+﻿R5T.Stratford.Construction - Construction console-app entry-point for the R5T.Stratford library functionality, an IServiceDefinition interface labeling types library.
