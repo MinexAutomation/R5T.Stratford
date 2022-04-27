@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stratford.Construction"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stratford", "R5T.Stratford\R5T.Stratford.csproj", "{CD586808-F91C-430F-A763-6C8CF75A440B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{009BA079-4184-4604-AEE2-CE885E8DE494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{475CA214-5590-4434-BB48-71AECE7A1F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +25,18 @@ Global
 		{CD586808-F91C-430F-A763-6C8CF75A440B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD586808-F91C-430F-A763-6C8CF75A440B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD586808-F91C-430F-A763-6C8CF75A440B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CA214-5590-4434-BB48-71AECE7A1F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CA214-5590-4434-BB48-71AECE7A1F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CA214-5590-4434-BB48-71AECE7A1F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CA214-5590-4434-BB48-71AECE7A1F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B716EE25-0FA0-47DC-AC73-967735216D7F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{475CA214-5590-4434-BB48-71AECE7A1F99} = {009BA079-4184-4604-AEE2-CE885E8DE494}
 	EndGlobalSection
 EndGlobal

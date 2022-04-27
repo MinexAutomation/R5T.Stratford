@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Stratford.Construction
-{
-    public class ServiceDefinitionInterfaceInheritanceTest : IServiceDefinitionInterfaceInheritanceTest
+{[ServiceImplementationMarker]
+    public class ServiceDefinitionInterfaceInheritanceTest : IServiceDefinitionInterfaceInheritanceTest,IServiceImplementation
     {
     }
 }
